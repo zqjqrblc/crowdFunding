@@ -1,0 +1,70 @@
+body {
+	background-color: #01040b;
+	margin: 0px;
+}
+
+li:nth-child(2){
+	background-color:white;
+	color:black;
+}
+
+li:nth-child(1) a{
+	color:white;
+}
+
+li:nth-child(2) a{
+	color:black;
+}
+
+li:nth-child(3) a{
+	color:white;
+}
+
+a:-webkit-any-link {
+	text-decoration:none;
+}
+
+.raiseDiv{
+	background:url("../images/background.jpg");
+	background-size:100%;
+	height:1000px;
+	text-align:center;
+}
+
+.raiseDiv label{
+	color:white;
+	font-size:1.8em;
+
+}
+
+.formDiv{
+	width:29%;
+	margin:0px auto;
+	padding:60px 0px 0px 0px;
+	text-align:left;
+}
+
+.formDiv table,tr,td{
+	padding:20px 0px 0px 0px;
+}
+
+.formDiv input{
+	height:2.1em;
+	border:2px solid black;
+	border-radius:4px;
+	padding:0px 0px 0px 5px;
+}
+
+#startDate{
+	font-size:1.6em;
+}
+
+.btn{
+	font-size:1.4em;
+	position:relative;
+	border:2px solid #213347;
+	border-radius:6px;
+	left:150px;
+	width:30%;
+	height:50px;
+}

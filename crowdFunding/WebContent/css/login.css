@@ -1,0 +1,80 @@
+@font-face {
+	font-family: style1;
+	src: url("../font-family/style1.ttf");
+}
+
+body {
+	background-color: #01040b;
+	margin: 0px;
+}
+
+.top-content {
+	background: url("../images/background.jpg") no-repeat;
+	height: 800px;
+	text-align: center;
+	background-size: 100%;
+}
+
+.left-part {
+	font-family: style1;
+	position: absolute;
+	top: 450px;
+	left: 200px;
+	color: #bbb9cc;
+}
+
+.left-part p {
+	font-size: 70px;
+}
+
+.right-part {
+	display: block;
+	position: relative;
+	top: 100px;
+	left: 400px;
+	text-align: center;
+	background-color: #000000;
+	opacity: 0.7;
+	border-radius:10px;
+	width: 400px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.form-title {
+	font-size: 4em;
+	font-family: style1;
+	padding: 25px 0px 10px 0px;
+	color: white;
+}
+
+label {
+	position:relative;
+	font-size: 1.7em;
+	color: white;
+	font-family: style1;
+}
+
+input {
+	font-size: 1.5em;
+	height: 2em;
+	border-radius: 4px;
+	border: 1px solid #c8cccf;
+	color: #6a6f77;
+	margin: 0px 6px 20px 0px;
+	padding: 0px 0px 0px 5px;
+}
+
+.btn {
+	margin: 10px 20px 0px 20px;
+	width: 130px;
+	height: 60px;
+	font-size: 2.5em;
+	font-family: style1;
+	border-radius:6px 
+}
+
+.forget{
+	color:white;
+	font-size:2em;
+}

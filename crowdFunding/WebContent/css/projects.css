@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{
+	background-color:black;
+	margin: 0px;
+}
+
+li:nth-child(1){
+	background-color:white;
+}
+
+li:nth-child(1) a{
+	color:black;
+}
+
+li:nth-child(2) a{
+	color:white;
+}
+
+li:nth-child(3) a{
+	color:white;
+}
+
+a:-webkit-any-link {
+	text-decoration:none;
+}
+
+.projectsDiv{
+	background:url("../images/background.jpg");
+	background-size:100%;
+}
+
+.projects{
+	position: relative;
+	left:200px;
+	border:1px solid white;
+	margin:20px 0px 0px 0px;
+	width:80%;
+	height:6px;
+	font-size:1.2em;
+}
+
+.project{
+	color:white;
+	border:1px solid white;
+	width:100%;
+	font-size:1.3em;
+	padding:15px;
+}
+
+button{
+	width:80px;
+	height:40px;
+	border:2px solid #dcefff;
+	font-size:0.8em;
+	border-radius:4px;
+	background:#c7d7e6;
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+header.top {
+	background-color: #030204;
+	margin: 100px 200px 0px 200px;
+	height: 100px;
+	opacity:0.8;
+}
+
+header img {
+	width: 440px;
+}

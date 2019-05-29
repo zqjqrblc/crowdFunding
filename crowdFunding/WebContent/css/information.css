@@ -1,0 +1,94 @@
+body {
+	background-color: #01040b;
+	margin: 0px;
+}
+
+li:nth-child(3){
+	background-color:white;
+	color:black;
+}
+
+li:nth-child(1) a{
+	color:white;
+}
+
+li:nth-child(2) a{
+	color:white;
+}
+
+li:nth-child(3) a{
+	color:black;
+}
+
+a:-webkit-any-link {
+	text-decoration:none;
+}
+
+.informationDiv{
+	background:url("../images/background.jpg");
+	background-size:100%;
+	margin:20px 0px 0px 0px;
+}
+
+.projectsNavDiv{
+	display:inline;
+}
+
+.projectsNav{
+	position:relative;
+	left:60px;
+	width:130px;
+	border:2px solid white;
+	float:left;
+	padding:1px;
+}
+
+.projectsNav ul{
+	padding:0px;
+}
+
+.projectsNav ul li{
+	display:block;
+	padding: 5px 10px 5px 10px;
+	font-size:1.2em;
+
+}
+
+.projectsNav ul li:nth-child(1){
+	background-color:white;
+	color:black;
+}
+
+.projectsNav ul li:nth-child(1) a{
+	color:black;
+}
+
+.projectsNav ul li:nth-child(2) a{
+	color:white;
+}
+
+.projectsNav ul li:nth-child(3){
+	background-color:black;
+}
+
+.projectsNav ul li:nth-child(3) a{
+	color:white;
+}
+
+.information{
+	width:100%;
+	color:white;
+	font-size:2em;
+}
+
+.information table{
+	margin:0px auto;
+	padding:200px;
+}
+
+.information table tr td{
+	padding:20px 40px 20px 40px;
+}
+
+
+

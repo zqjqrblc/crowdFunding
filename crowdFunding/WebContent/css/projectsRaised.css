@@ -1,0 +1,103 @@
+body {
+	background-color: #01040b;
+	margin: 0px;
+}
+
+li:nth-child(3){
+	background-color:white;
+	color:black;
+}
+
+li:nth-child(1) a{
+	color:white;
+}
+
+li:nth-child(2) a{
+	color:white;
+}
+
+li:nth-child(3) a{
+	color:black;
+}
+
+a:-webkit-any-link {
+	text-decoration:none;
+}
+
+.informationDiv{
+	background:url("../images/background.jpg");
+	background-size:100%;
+	margin:20px 0px 0px 0px;
+}
+
+.projectsNav{
+	position:relative;
+	left:60px;
+	width:130px;
+	border:2px solid white;
+	float:left;
+	padding:1px;
+}
+
+.projectsNav ul{
+	padding:0px;
+}
+
+.projectsNav ul li{
+	display:block;
+	padding: 5px 10px 5px 10px;
+	font-size:1.2em;
+
+}
+
+.projectsNav ul li:nth-child(2){
+	background-color:white;
+	color:black;
+}
+
+.projectsNav ul li:nth-child(1) a{
+	color:white;
+}
+
+.projectsNav ul li:nth-child(2) a{
+	color:black;
+}
+
+.projectsNav ul li:nth-child(3){
+	background-color:black;
+}
+
+.projectsNav ul li:nth-child(3) a{
+	color:white;
+}
+.projectsDiv{
+	background:url("../images/background.jpg");
+	background-size:100%;
+}
+
+.projects{
+	position: relative;
+	left:60px;
+	border:1px solid white;
+	margin:20px 0px 0px 0px;
+	width:80%;
+	height:6px;
+	font-size:1.2em;
+}
+
+.project{
+	color:white;
+	border:1px solid white;
+	width:100%;
+	font-size:1.3em;
+	padding:15px;
+}
+
+button{
+	width:80px;
+	height:40px;
+	border:2px solid #dcefff;
+	font-size:0.8em;
+	border-radius:4px;
+	background:#c7d7e6;
+}
